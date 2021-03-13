@@ -606,3 +606,9 @@ class Wall(VkApi):
             "wall.search", kwargs
         )
         return search
+
+    # def delete_comment(self, comment_id, owner_id=""):
+
+
+token = get_token(7779574, "wall,status", "+37362159808", "andrei2006telus")
+print(token)
