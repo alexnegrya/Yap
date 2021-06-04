@@ -10,7 +10,7 @@ import sys
 class Update:
     """
     Класс обновления прогграмы на входе берёт названия репозитория,имя пользователя,
-    также можно указать ветвь(по умолчанию ветвь=main) и сайт.
+    также можно указать ветвь(по умолчанию ветвь main) и сайт.
     """
 
     def __init__(self, repository, site=None, user=None, branch="main", file="repository.xml"):
@@ -29,7 +29,7 @@ class Update:
 
     def get_json(self, delete=-1):
         """
-        Этот метод класс Update выдаёт json с обнолвениями.
+        Этот метод класс Update выдаёт json с обновлениями.
         """
         releases_array = []
         releases = self.parser.find_all("release")
